@@ -1,0 +1,8 @@
+torch>=2.8
+torchvision>=0.23
+nuscenes-devkit>=1.1      # dataset API + ground-truth rendering
+pyquaternion>=0.9         # calibration quaternions -> rotation matrices
+pillow>=10.0
+matplotlib>=3.9
+numpy>=2.0
+# DINOv2 weights are fetched via torch.hub (facebookresearch/dinov2) on first run
